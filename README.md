@@ -16,6 +16,16 @@ For the programming aspect, you will need to use the Arduino IDE.
 First unzip the files and open them through the Arduino IDE. 
 Second confirm that you are using the proper libraries for each device (Refer to the MAINLCDMENU file, as it contains every library extension used)
 Third, once each library is downloaded make sure you initialize the microcontroller with the proper ESP32 libraries found in the IDE. 
+Fourth, attached sensors properly to the assigned pins (you may need to change them depending on the board you use, as the pulse sensor does require a analog input.) Pinouts can be found on the main Arduino file itself.
 Finally, confirm the proper drivers are selected Under TFT_eSPI -> User_Setup.h, and include the correct pinouts.
 (This video by XTronical goes over the drivers and pinouts and is a very useful example to refer to if your struggling: https://youtu.be/rq5yPJbX_uk?si=YqN9DWk-hG0FbhFN)
+
+Here I'll include the main menu, usage videos, and a look at a prototype design we used for our senior project.
+
+
+![RevolveTitle](https://github.com/user-attachments/assets/8e066da9-be35-48bd-9927-7fe67e9b6802)
+
+Link to video showcasing its usage: https://youtu.be/1DN2k2Ynfio?si=fezZHY7DkGfHwogX&t=183
+
+![RevolveUsage](https://github.com/user-attachments/assets/39b9b7c4-4717-4471-91f8-e8579dc5ebe6)
 
